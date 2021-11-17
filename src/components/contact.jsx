@@ -16,9 +16,7 @@ class Contact extends React.Component {
                 <div id="contact" className="box-shadow-full">
                   <div className="row">
                     <div className="col-md-6">
-                      <div className="title-box-2">
-                        <h5 className="title-left">Send A Message</h5>
-                      </div>
+                      
                       <div>
                         <form
                           action="https://formspree.io/xdoeonlo"
@@ -106,11 +104,7 @@ class Contact extends React.Component {
                           Luke can be contacted below via Github or Linkdin
                   
                         </p>
-                        {/* <!-- <ul class="list-ico">
-                                <li><span class="ion-ios-location"></span> 329 WASHINGTON ST BOSTON, MA 02108</li>
-                                <li><span class="ion-ios-telephone"></span> (617) 557-0089</li>
-                                <li><span class="ion-email"></span> contact@example.com</li>
-                                </ul> --> */}
+                    
                       </div>
                       <div className="socials">
                         <ul>
