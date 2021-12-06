@@ -6,16 +6,35 @@ class About extends React.Component {
     super();
     this.state = {
       skills: [
+        { id: "HTML5_skill", content: "HTML5", porcentage: "90%", value: "80" },
+        { id: "CSS3_skill", content: "CSS3", porcentage: "90%", value: "75" },
+        {
+          id: "JavaScript_skill",
+          content: "JavaScript",
+          porcentage: "90%",
+          value: "90"
+        },
         
-
+        {
+          id: "ReactJS_skill",
+          content: "ReactJS",
+          porcentage: "80%",
+          value: "80"
+        },
+        {
+          id: "Python_skill",
+          content: "NodeJS",
+          porcentage: "80%",
+          value: "75"
+        },
       ],
       about_me: [
         {
           id: "first-p-about",
           content:
-            "Luke is a hardworking individual new to the world of coding. He will be done with his web development certificate on December 1st, 2021."
-        },
-        
+            "Luke has over 8 years in leadership roles under his belt. From putting together events of 500+ people to being a part of one of the finest resorts in the nation, dealing with high-profile clients every day. Luke has now switched his talents to the world of Tech, going to school and earning a certificate in Web Development and Coding. Luke writes code every day to fine-tune his skills and build even more projects for his portfolio."
+        }
+     
       ]
     };
   }
@@ -46,9 +65,27 @@ class About extends React.Component {
                       </div>
                     </div>
                     <div className="skill-mf">
-                      
-                      <img src={myImage} alt="" />
-                     
+                      {/* <p className="title-s">Skill</p> */}
+                      {this.state.skills.map(skill => {
+                        return (
+                          <React.Fragment key={skill.id}>
+                            <span>{skill.content}</span>{" "}
+                            <span className="pull-right">
+                              {skill.porcentage}
+                            </span>
+                            <div className="progress">
+                              <div
+                                className="progress-bar"
+                                role="progressbar"
+                                style={{ width: skill.porcentage }}
+                                aria-valuenow={skill.value}
+                                aria-valuemin="0"
+                                aria-valuemax="100"
+                              ></div>
+                            </div>
+                          </React.Fragment>
+                        );
+                      })}
                     </div>
                   </div>
                   <div className="col-md-6">

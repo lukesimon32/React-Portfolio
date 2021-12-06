@@ -18,7 +18,7 @@ class Contact extends React.Component {
                     <div className="col-md-6">
                       
                       <div>
-                        <form
+                      <form
                           action="https://formspree.io/xdoeonlo"
                           method="POST"
                           className="contactForm"
@@ -101,7 +101,7 @@ class Contact extends React.Component {
                       </div>
                       <div className="more-info">
                         <p className="lead">
-                          Luke can be contacted below via Github or Linkdin
+                          Luke can be contacted below via Github, Linkdin or by email at Lukesimon0@gmail.com
                   
                         </p>
                     
@@ -128,6 +128,17 @@ class Contact extends React.Component {
                             >
                               <span className="ico-circle">
                                 <i className="ion-social-linkedin"></i>
+                              </span>
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              href="https://www.linkedin.com/in/luke-simon-646792210/"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              <span className="resume">
+                                <a href="https://drive.google.com/file/d/1lwuxX9V3pHNWS5a1HFCt4v383CHThaYg/view?usp=sharing" >Click here for Resume</a>
                               </span>
                             </a>
                           </li>

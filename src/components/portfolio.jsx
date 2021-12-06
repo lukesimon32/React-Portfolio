@@ -88,9 +88,81 @@ class Portfolio extends React.Component {
                
               </div>
             </div>
-
+            <div className="col-md-4">
+              <div className="work-box">
+                  <div className="work-img">
+                    <a href="https://github.com/lukesimon32/E-Commerce"><img src="https://user-images.githubusercontent.com/84144642/134097129-a3a1a78c-93f3-43eb-aa18-d924837d77f3.png" alt="" className="img-fluid" /></a>
+                  </div>
+                  <div className="work-content">
+                    <div className="row">
+                      <div className="col-sm-8">
+                        <h2 className="w-title">E-Commerce Back-end</h2>
+                        <div className="w-more">
+                          
+                          
+                        </div>
+                      </div>
+                      {/* <div className="col-sm-4">
+                        <div className="w-like">
+                          <span className="ion-ios-plus-outline"></span>
+                        </div>
+                      </div> */}
+                    </div>
+                  </div>
+               
+              </div>
+            </div>
+            <div className="col-md-4">
+              <div className="work-box">
+                  <div className="work-img">
+                    <a href="https://github.com/lukesimon32/Employee-Management-Tracker"><img src="https://nmoras.github.io/employee-tracker-mysql/assets/employeebyrole.png" alt="" className="img-fluid" /></a>
+                  </div>
+                  <div className="work-content">
+                    <div className="row">
+                      <div className="col-sm-8">
+                        <h2 className="w-title">Employee Management Tracker </h2>
+                        <div className="w-more">
+                          
+                          
+                        </div>
+                      </div>
+                      {/* <div className="col-sm-4">
+                        <div className="w-like">
+                          <span className="ion-ios-plus-outline"></span>
+                        </div>
+                      </div> */}
+                    </div>
+                  </div>
+               
+              </div>
+            </div>
+            <div className="col-md-4">
+              <div className="work-box">
+                  <div className="work-img">
+                    <a href="https://budget-tracker-26163.herokuapp.com/"><img src="https://user-images.githubusercontent.com/84144642/140850007-42716cf0-e017-44ca-b1ef-c8cc5e599230.png" alt="" className="img-fluid" /></a>
+                  </div>
+                  <div className="work-content">
+                    <div className="row">
+                      <div className="col-sm-8">
+                        <h2 className="w-title">Budget Tracker</h2>
+                        <div className="w-more">
+                          
+                          
+                        </div>
+                      </div>
+                      {/* <div className="col-sm-4">
+                        <div className="w-like">
+                          <span className="ion-ios-plus-outline"></span>
+                        </div>
+                      </div> */}
+                    </div>
+                  </div>
+               
+              </div>
+            </div>
+            
+           </div>           
           </div>
-        </div>
       </section>
     );
   }
